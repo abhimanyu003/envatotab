@@ -12,10 +12,12 @@ Feel free to fork or even contribute.
 
 ### Todo's
 
- - Write Tests
- - Rethink Github Save
- - Add Code Comments
- - Add Night Mode
+ - Search for users pane, search as you type
+ - Better statement, earnings appearel
+ - A simple chart below quick downloads
+ - More feeds from forums
+ - Commision shares simple calculator on front
+ - Purchase code verifier
 
 License
 ----
