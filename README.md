@@ -9,3 +9,15 @@ envatotab will be chrome extension using these libraries:
   - jQuery
 
 Feel free to fork or even contribute.
+
+### Todo's
+
+ - Write Tests
+ - Rethink Github Save
+ - Add Code Comments
+ - Add Night Mode
+
+License
+----
+
+General Public License v3.0
