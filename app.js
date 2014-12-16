@@ -2,9 +2,9 @@ jQuery( document ).ready( function( $ ) {
 
 	"use strict";
 
-	var username = "vuzzu";
 	var username = "YOUR-ENVATO-USERNAME";
 	var apiKey = "YOUR-ENVATO-API-KEY";
+	var apiUrl = "http://marketplace.envato.com/api/"
 
 	function performPublicRequest(apiVersion,parameter) {
 
@@ -71,7 +71,6 @@ jQuery( document ).ready( function( $ ) {
 
 		recentSales.success(function (data) {
 			$.each(data['recent-sales'],function() {
-				console.log(this);
 				var date = new Date(this.sold_at);
 				var day = date.getDate()+1;
 				var month = date.getMonth()+1;
