@@ -7,6 +7,8 @@ envatotab will be chrome extension using these libraries:
 
   - bootstrap
   - jQuery
+  - Lessjs
+  - FontAwesome
 
 Feel free to fork or even contribute.
 
@@ -18,6 +20,14 @@ Feel free to fork or even contribute.
  - More feeds from forums
  - Commision shares simple calculator on front
  - Purchase code verifier
+ - Fix management warning
+
+# Chrome installation
+
+ - Open Extensions on Chrome
+ - Enable Developer mode
+ - Load unpackede extension by heading to envatotab folder location
+
 
 License
 ----
