@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "envatotab",
+  "description": "Helps you to be up to date with the most important activities on Envato marketplaces.",
+  "version": "1.0",
+
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+    "managment",
+    "background",
+    "tabs",
+    "notifications"
+  ],
+
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+
+  "content_scripts": [
+  {
+      "matches": ["http://*/*","https://*/*"],
+      "js": ["less.js","assets/js/jquery-1.11.1.min.js","assets/js/bootstrap.min.js","assets/js/jquery-migrate-1.2.1.min.js","app.js"],
+      "css": ["assets/css/bootstrap.min.css", "assets/css/font-awesome.min.css"]
+  }]
+
+}
