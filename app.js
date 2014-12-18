@@ -1,12 +1,26 @@
 jQuery( document ).ready( function( $ ) {
 
+
 	"use strict";
 
 	var username = "YOUR-ENVATO-USERNAME";
-	var apiKey = "YOUR-ENVATO-API-KEY";
+	var apiKey = "YOUR-ENVATO-APIKEY";
 	var apiUrl = "http://marketplace.envato.com/api/";
 	var statementRecords = 10;
-	var recentSalesRecords = 10
+	var recentSalesRecords = 10;
+
+	function updateOptions(callback) {
+
+		chrome.storage.sync.get({
+		    username: '',
+		    apiKey: ''
+		}, function(data) {
+			username = data.username;
+			apiKey = data.apiKey;
+			callback();  
+		});
+
+	}
 
 	function performPublicRequest(apiVersion,parameter) {
 
@@ -27,6 +41,8 @@ jQuery( document ).ready( function( $ ) {
 	}
 
 	function init() {
+
+		$("header .options a").attr("href", chrome.extension.getURL("options.html") );
 
 		var totalUsers = performPublicRequest("edge","total-users");
 
@@ -125,6 +141,6 @@ jQuery( document ).ready( function( $ ) {
 		}
 	});
 
-	init();
+	updateOptions(init);
 
 });

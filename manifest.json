@@ -4,6 +4,7 @@
   "name": "envatotab",
   "description": "Helps you to be up to date with the most important activities on Envato marketplaces.",
   "version": "1.0",
+  "options_page": "options.html",
 
   "permissions": [
     "http://*/*",
@@ -11,7 +12,8 @@
     "managment",
     "background",
     "tabs",
-    "notifications"
+    "notifications",
+    "storage"
   ],
 
   "chrome_url_overrides" : {
