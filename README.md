@@ -27,7 +27,7 @@ envatotab will be chrome extension using these libraries:
  - Purchase code verifier
  - Fix management warning
  - Notifications popup
- - 
+
 
 License
 ----
