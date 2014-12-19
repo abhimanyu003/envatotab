@@ -92,6 +92,7 @@
 				  <div class="form-group">
 				    <label for="inputEmail3" class="col-sm-3 control-label">Search author</label>
 				    <div class="col-sm-9">
+				    	<span class="input-notifier"></span>
 			      		<input type="text" class="form-control search-author-by-username" placeholder="Author-Username ex: collis">
 				    </div>
 				  </div>
@@ -118,16 +119,42 @@
 
 		</div>
 
-		<div class="row author-result" style="display:none">
+		<div class="row author-result well" style="display:none">
 			
-			<div class="col-xs-2 author-avatar">
-				<img data-src="holder.js/140x140" class="img-thumbnail" alt="140x140" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQ1IiB5PSI3MCIgc3R5bGU9ImZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0O2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9nPjwvc3ZnPg==" style="width: 140px; height: 140px;"  style="width: 140px; height: 140px;">
+			<div class="col-xs-1 author-avatar">
+				<a href="" class="author-url" target="_blank">
+					<img data-src="holder.js/80x80" class="img-thumbnail" alt="80x80" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQ1IiB5PSI3MCIgc3R5bGU9ImZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0O2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9nPjwvc3ZnPg==" style="width: 80px; height: 80px;"  style="width: 80px; height: 80px;">
+				</a>
 			</div>
 
-			<div class="col-xs-2">
+			<div class="col-xs-3 author-information">
+
+				<ul>
+					<li>
+						<span class="label label-info">Country</span>
+						<a class="country" href="https://en.wikipedia.org/wiki/"></a>
+					</li>
+					<li>
+						<span class="label label-info">Location</span>
+						<a class="location" href="https://en.wikipedia.org/wiki/"></a>
+					</li>
+					<li>
+						<span class="label label-info">Sales</span>
+						<strong class="sales"></strong>
+					</li>
+					<li>
+						<span class="label label-info">Followers</span>
+						<strong class="followers"></strong>
+					</li>
+				</ul>
 
 			</div>
 
+			<div class="col-xs-8 author-items">
+				<ul>
+					
+				</ul>
+			</div>
 
 		</div>
 
