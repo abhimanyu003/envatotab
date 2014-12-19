@@ -19,22 +19,58 @@
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700' rel='stylesheet' type='text/css'>
 	<style type="text/css"> * { font-family: 'Open Sans', sans-serif; } </style>
+	<style>
+
+		body {
+			min-width: 300px;
+		}
+
+		.navbar-right li { float: left; }
+		.navbar-right li.options { float: right; }
+
+	</style>
 
 </head>
 
 <body>
+
+	<header>
+
+		<nav class="navbar navbar-default" role="navigation">
+		  <div class="container-fluid">
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="col-xs-12">
+			  <ul class="nav navbar-nav navbar-right">
+				<li class="username"><a href="#"> <i class="fa fa-user"></i> </a></li>
+				<li class="balance"><a href="#"> <i class="fa fa-usd"></i> </a></li>
+				<li class="options"><a href="#" id="options"> <i class="fa fa-cog"></i> </a></li>
+			  </ul>
+			</div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+	</header>
 
 
 	<div class="container-fluid">
 
 		<div class="row">
 
-			
+			<div class="col-xs-12">
+
+				<div class="well"> Some magic is about to happen here. </div>
+
+			</div>
 
 		</div>
 
 	</div>
 
+	<script type='text/javascript' src='assets/js/jquery-1.11.1.min.js?ver=1.11.1'></script>
+	<script type='text/javascript' src='assets/js/jquery-migrate-1.2.1.min.js?ver=1.2.1'></script>
+	<script type='text/javascript' src='assets/js/bootstrap.min.js?ver=3.3.1'></script>
+	<script type='text/javascript' src='library.js?ver=1.0'></script>
 	<script src="popup.js"></script>
 
 </body>
