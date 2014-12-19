@@ -31,11 +31,11 @@ function restore_options() {
 //Run envatotab by opening new tab and closing current one
 function run_envatotab() {
   chrome.tabs.create({
-    url: chrome.extension.getURL('index.html')
+    url: chrome.extension.getURL('newtab.html')
   });
 
   chrome.tabs.getCurrent(function(tab) {
-      chrome.tabs.remove(tab.id, function() { });
+    chrome.tabs.remove(tab.id, function() { });
   });
 }
 
