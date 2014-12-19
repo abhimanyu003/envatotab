@@ -10,6 +10,14 @@ envatotab will be chrome extension using these libraries:
   - Lessjs
   - FontAwesome
 
+# Chrome installation
+
+ - Open Extensions on Chrome
+ - Enable Developer mode
+ - Load unpacked extension by heading to envatotab folder location
+ - After enabling extension open new tab click the Cog icon on right corner of header and update your settings
+
+
 ### Todo's
 
  - Search for users pane, search as you type
@@ -19,14 +27,7 @@ envatotab will be chrome extension using these libraries:
  - Purchase code verifier
  - Fix management warning
  - Notifications popup
-
-# Chrome installation
-
- - Open Extensions on Chrome
- - Enable Developer mode
- - Load unpacked extension by heading to envatotab folder location
- - After enabling extension open new tab click the Cog icon on right corner of header and update your settings
-
+ - 
 
 License
 ----
