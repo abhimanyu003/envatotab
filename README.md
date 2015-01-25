@@ -3,7 +3,7 @@ envatotab
 
 There is a need to check important activities of an Envato author, therefore we are trying to make a chrome extension to bring feeds within the new tabs page. By that author wont need writing down the password everytime to check if there is anything new or share password with colleagues.
 
-envatotab will be chrome extension using these libraries:
+envatotab is a chrome extension built with these libraries:
 
   - Bootstrap
   - jQuery
@@ -20,13 +20,14 @@ envatotab will be chrome extension using these libraries:
 
 ### Todo's
 
- - Search for users pane, search as you type
+ - Search for users pane, search as you type improve showing items from marketplaces
  - A simple chart below quick downloads
  - More feeds from forums
- - Commision shares simple calculator on front
  - Purchase code verifier
  - Fix management warning
- - Notifications popup
+ - Notifications popup messages
+ - Background.js get balance and store if no initial
+ - Background.js get balance and compare the stored one if differ +1 notification and message
 
 
 License
