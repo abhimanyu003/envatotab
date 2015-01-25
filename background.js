@@ -10,8 +10,19 @@ function updateIcon() {
     });
 }
 
+function storeInitialBalance() {
+
+
+
+
+}
+
+
+
 window.setInterval(function () {
-    
+
+
+
     chrome.browserAction.setBadgeBackgroundColor({
         color: [200, 0, 0, 100]
     });
